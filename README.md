@@ -23,11 +23,34 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+
+    a hash function is any function that can be used to map data of any size to fixed-size values.
+    values returned by a hash function are called hash values, digests, simply hashes
+    values are used to index a fixed-size table called has table
+
 2. Collision resolution
+
+    allows each hash slot to hold a reference to a collection of items
+
+    way of holding collisions, when two or more items should be kept in the same location.
+
 3. Performance of basic hash table operations
+
+    insertion, delete, and search
+
 4. Load factor
+
+    load_factor number of items in hash table
+                total number of slots
+
 5. Automatic resizing
+
+    when a load factor reaches set limit either too low or too high the total number of slots will
+    automatically resizing either half or double.
+
 6. Various use cases for hash tables
+
+    caching, look up table, duplicate prevention.
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
