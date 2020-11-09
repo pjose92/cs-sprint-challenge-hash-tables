@@ -5,12 +5,11 @@ def has_negatives(a):
     # Your code here
     TODO: "need to find what positive numbers have negative corresponding numbers"
     "results should come back with positive numbers"
-    
     index = {}
     result = []
     
     for num in a:
-        if num >= 0:
+        if num >= 0: 
             if num in index:
                 result.append(num)
             else:

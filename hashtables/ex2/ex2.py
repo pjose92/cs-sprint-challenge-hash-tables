@@ -12,7 +12,7 @@ def reconstruct_trip(tickets, length):
     """
     # Your code here
     
-    #if it is none then that is the head
+    #if it is none then that is the head(source)
     #if destination is none than that is the tail
     #need to organize tickets from departure to destaination 
     #build ticket dictionary

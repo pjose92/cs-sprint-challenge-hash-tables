@@ -17,7 +17,6 @@ def finder(files, queries):
 
     return result
 
-
 if __name__ == "__main__":
     files = [
         '/bin/foo',
